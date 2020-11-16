@@ -1,8 +1,12 @@
+
 :root {
     --santa-red: #A31123;
     --santa-red-alpha: rgba(163, 17, 34, 0.4);
-    --santa-green: #0AFF9;
+    --santa-green: #3d6125;
+}
 
+body {
+    background-color: black;
 }
 
 html {
@@ -13,14 +17,15 @@ html {
     padding: 0;
 }
 
+
 #title {
     background-color: var(--santa-red);
     padding: 3% 15%;
-    color: white;
+    color:white;
 }
 
 h1 {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-weight: 700;
     font-size: 3.5rem;
     line-height: 1.5;
@@ -35,9 +40,8 @@ h1 {
 }
 
 .navbar-brand {
-    font-family: 'Ubuntu';
+    font-family: "Ubuntu";
     font-size: 2.5rem;
-    font-weight: 700;
 }
 
 .nav-item {
@@ -48,7 +52,7 @@ h1 {
     font-size: 1.2rem;
 }
 
-.download-btm {
+.download-btn {
     margin: 5% 3% 5% 0;
 }
 
@@ -57,11 +61,11 @@ h1 {
     transform: rotate(10deg);
 }
 
-/*Features Section*/
+/*Features Section */
 
 #feature {
     padding: 7% 15%;
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 .feature-box {
@@ -70,15 +74,100 @@ h1 {
 }
 
 .feature-box h3 {
-    font-family: 'Montserrat';
+    font-family: "Monserrat";
 }
 
 .feature-box p {
-    color: #8f8f8f;
+    color: white;
 }
 
 .feature-box i {
     color: var(--santa-red);
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 
+.feature-box i:hover {
+    color: var(--santa-green);
+}
+
+.col-lg-4 {
+    color: white;
+}
+
+
+/*Testimonials*/
+#testimonials{
+    background-color: var(--santa-red-alpha);
+    color: white;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-family: "Monserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#testimonials img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+/*Press Section*/
+
+.press {
+    background-color: var(--santa-red-alpha);
+    text-align: center;
+    padding: 3% auto;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 1.5rem;   
+}
+
+#pricing {
+    background-color: var(--santa-red);
+    padding: 4rem;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 2rem;
+}
+
+/*Footer*/
+
+#footer {
+    text-align: center;
+    padding: 4rem;
+    background-color: var(--santa-red-alpha);
+    padding: 2rem;
+    color: burlywood;
+}
+
+.social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: burlywood;
+    font-size: 1.2rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.social a:hover {
+    background-color: var(--light-color);
+    border-radius: 50%;
+}
+
+#cta {
+    padding: 4rem;
+    text-align: center;
+    background-color: var(--santa-green);
+    color: white;
+}
