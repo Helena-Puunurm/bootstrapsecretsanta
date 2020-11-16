@@ -1,8 +1,7 @@
-
 :root {
     --santa-red: #A31123;
     --santa-red-alpha: rgba(163, 17, 34, 0.4);
-    --santa-green: #3d6125;
+    --santa-green: #0A9F99;
 }
 
 body {
@@ -132,6 +131,7 @@ h1 {
     background-color: var(--santa-red);
     padding: 4rem;
     text-align: center;
+    color: white;
 }
 
 .pricing-column {
@@ -143,7 +143,7 @@ h1 {
 #footer {
     text-align: center;
     padding: 4rem;
-    background-color: var(--santa-red-alpha);
+    background-color: var(--santa-green);
     padding: 2rem;
     color: burlywood;
 }
